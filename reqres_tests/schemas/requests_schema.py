@@ -13,6 +13,17 @@ create_user_schema = Schema(
 )
 
 
+update_user_schema = Schema(
+    {
+        "name": str,
+        "job": str,
+        "updatedAt": str
+    },
+    required=True,
+    extra=PREVENT_EXTRA
+)
+
+
 login_successful_schema = Schema(
     {
         "token": str,
@@ -30,7 +41,7 @@ login_unsuccessful_schema = Schema(
 )
 
 
-user_data_schema = Schema(
+get_user_schema = Schema(
     {
         Required("data"): {
             "id": int,
@@ -55,4 +66,13 @@ register_unsuccessful_user_schema = Schema(
     },
     required=True,
     extra=PREVENT_EXTRA,
+)
+
+
+register_successful_user_shema = Schema(
+    {
+        "id": int,
+        "token": str
+    },
+    required=True
 )
