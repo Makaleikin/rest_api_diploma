@@ -1,4 +1,4 @@
-# Project api-tests for reqres.in
+# Project REST API autotests for reqres.in
 <!-- Technology -->
 
 ## Используемые инструменты и фреймворки:
