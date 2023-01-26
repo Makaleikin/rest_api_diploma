@@ -1,4 +1,4 @@
-# Project UI android_app-autotests for Wikipedia
+# Project api-tests for reqres.in
 <!-- Technology -->
 
 ## Используемые инструменты и фреймворки:
@@ -8,7 +8,7 @@
   <code><img width="5%" title="Pytest" src="images/logo/pytest.png"></code>
   <code><img width="5%" title="GitHub" src="images/logo/github.png"></code>
   <code><img width="5%" title="Jenkins" src="images/logo/jenkins.png"></code>
-  <code><img width="5%" title="Docker" src="images/logo/docker.png"></code>
+  <code><img width="5%" title="Docker" src="images/logo/requests.png"></code>
   <code><img width="5%" title="Allure Report" src="images/logo/allure_report.png"></code>
   <code><img width="5%" title="Allure TestOps" src="images/logo/allure_testops.png"></code>
   <code><img width="5%" title="Jira" src="images/logo/jira.png"></code>
@@ -18,32 +18,24 @@
 <!-- Тест кейсы -->
 
 ## Что проверяют автотесты:
-**Все проверки проходят в приложении Wikipedia**
-* Проверка поиска, через поисковой запрос
-* Проверка голосового поиска
-* Проверка пустого поискового запроса
-* Добавления еще одного языка
+* Успешная регистрация пользователя
+* Успешная авторизация пользователя
+* Успешное создание пользователя
+* Получение данных пользователя по id
+* Изменение данных пользователя
+* Отображение списка пользователей
+* Неуспешная авторизация пользователя
+* Неуспешная регистрация пользователя
 
 <!-- Jenkins -->
 
 ## <img width="3%" title="Jenkins" src="images/logo/jenkins.png"> Запуск проекта в Jenkins
 
-## [Job](https://jenkins.autotests.cloud/job/diploma_mobile_tests/)
+## [Job](https://jenkins.autotests.cloud/job/api_diploma_tests)
 
-#### Когда нажимаем "Собрать сейчас" начнется сборка билда, запустятся тесты. Тесты проходят на реальном девайсе, с помощью Browserstack
+#### Когда нажимаем "Собрать сейчас" начнется сборка билда, запустятся тесты.
 
 ![This is an image](images/screenshots/jenkins_start.png)
-
-<!-- Browserstack -->
-
-### <img width="3%" title="Browserstack" src="images/logo/browserstack.png"> Запуск проекта в [Browserstack](https://www.browserstack.com)
-#### После запуска сборки в Jenkins, тесты стартуют удаленно, с помощью Browserstack. Здесь мы в реальном времени можем следить за результатом прохождения тестов:
-#### Тесты проходят на девайсе Google Pixel 3, Android 9.0
-![This is an image](images/screenshots/browserstack.png)
-
-#### Пример прохождения теста в Browserstack:
-
-![This is an image](images/screenshots/example_mobile_test.gif)
 
 <!-- Allure report -->
 
