@@ -31,22 +31,11 @@
 
 ## <img width="3%" title="Jenkins" src="images/logo/jenkins.png"> Запуск проекта в Jenkins
 
-## [Job](https://jenkins.autotests.cloud/job/diploma_mobile_tests/)
+## [Job](https://jenkins.autotests.cloud/job/api_diploma_tests)
 
-#### Когда нажимаем "Собрать сейчас" начнется сборка билда, запустятся тесты. Тесты проходят на реальном девайсе, с помощью Browserstack
+#### Когда нажимаем "Собрать сейчас" начнется сборка билда, запустятся тесты.
 
 ![This is an image](images/screenshots/jenkins_start.png)
-
-<!-- Browserstack -->
-
-### <img width="3%" title="Browserstack" src="images/logo/browserstack.png"> Запуск проекта в [Browserstack](https://www.browserstack.com)
-#### После запуска сборки в Jenkins, тесты стартуют удаленно, с помощью Browserstack. Здесь мы в реальном времени можем следить за результатом прохождения тестов:
-#### Тесты проходят на девайсе Google Pixel 3, Android 9.0
-![This is an image](images/screenshots/browserstack.png)
-
-#### Пример прохождения теста в Browserstack:
-
-![This is an image](images/screenshots/example_mobile_test.gif)
 
 <!-- Allure report -->
 
