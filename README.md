@@ -8,7 +8,7 @@
   <code><img width="5%" title="Pytest" src="images/logo/pytest.png"></code>
   <code><img width="5%" title="GitHub" src="images/logo/github.png"></code>
   <code><img width="5%" title="Jenkins" src="images/logo/jenkins.png"></code>
-  <code><img width="5%" title="Docker" src="images/logo/docker.png"></code>
+  <code><img width="5%" title="Docker" src="images/logo/requests.png"></code>
   <code><img width="5%" title="Allure Report" src="images/logo/allure_report.png"></code>
   <code><img width="5%" title="Allure TestOps" src="images/logo/allure_testops.png"></code>
   <code><img width="5%" title="Jira" src="images/logo/jira.png"></code>
