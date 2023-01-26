@@ -47,7 +47,7 @@
 #### Во вкладке Graphs можно посмотреть графики о прохождении тестов, по их приоритезации, по времени прохождения и др.
 ![This is an image](images/screenshots/allure_graphs.png)
 
-#### Во вкладке Suites находятся собранные тест кейсы, к которым прикрепляются аттачменты: в данном случае только видео прохождение тестов
+#### Во вкладке Suites находятся собранные тест кейсы, к которым прикрепляются аттачменты: Request body, Response body, CURL
 ![This is an image](images/screenshots/allure_attachments.png)
 
 <!-- Telegram -->
